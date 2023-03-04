@@ -1,0 +1,217 @@
+/* CSS Reset */
+body {
+        margin: 0px;
+        padding: 0px;
+}
+
+/* variables */
+
+:root {
+        --navbar-height: 56px;
+}
+
+/* navbar */
+#navbar {
+        display: flex;
+        position:sticky;
+        top:0px;
+        
+}
+
+/* navbar:logo */
+.logo {
+
+        width: 62px;
+}
+
+.logo img {
+        height: 50px;
+        width: 50px;
+        margin: 2px;
+        padding: 3px;
+        border: 2px solid wheat;
+}
+
+
+/* navbar :menu */
+
+.menu ul {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+
+        display: flex;
+        justify-content: center;
+        align-items:center;
+}
+
+.menu li {
+        list-style: none;
+}
+
+.menu ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin: 7px 22px;
+        padding: 2px;
+        border-radius: 10px;
+}
+
+a:hover {
+        color: blue;
+        background-color: rgb(191, 176, 36);
+}
+
+/* menu background  */
+#navbar::before {
+        content: "";
+        background-color: rgb(162, 23, 28);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;
+}
+
+
+
+/* utility classes*/
+.btn {
+        cursor: grab;
+        padding: 4px;
+        background-color: brown;
+        border-radius: 10px;
+}
+
+.h-primary {
+        font-size: 2.3rem;
+        font-family: 'Marhey', cursive;
+        font-weight: 900;
+        text-align:center;
+        margin:10px;
+        padding:2px;
+}
+
+
+.para {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align:center;
+}
+
+.h-secondary{font-family: 'Roboto', sans-serif;
+              margin:5px;
+              padding:2px;
+}
+ 
+    /* section:home */
+
+  #home::before{ content: "";
+        background:url('https://th.bing.com/th/id/R.913becf9f884742c3bae5764e35ae12b?rik=zxv5oidL7n59fQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f2%2f9%2f7%2f494243.jpg&ehk=jbHEDfWJ%2fvfSK7S0gPqDY4mLwcyroJZp5ma9w4jrfOw%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+        position: absolute;
+        height: 163%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+          }
+
+#home {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+
+} 
+ 
+/* section :services */
+#services::before{ content: "";
+        background-color:rgb(138, 66, 66);
+        position: absolute;
+        height: 102%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;
+        
+        
+        
+          }
+ #services{position:relative;}
+
+
+#services h1{     padding: 0px;
+        margin: 78px;     }
+
+
+.serviceimages{width:100px;
+               height:100px;}
+
+.serviceno{border:2px solid red;
+           border-radius:10px;
+           margin:5px;
+            display:flex;
+            flex-direction:column;
+             justify-content:center;
+             align-items:center;
+             background-color:rgb(226, 222, 223) }
+
+     
+
+#box{display:flex;
+        
+      justify-content:center;
+   align-items:center;
+            }
+/* section:partners */
+#partners::before{ content: "";
+        background-color: aquamarine;
+        position: absolute;
+        height: 105%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;}
+
+#partners{
+       
+        position:relative;
+
+} 
+#box1{display:flex;
+      justify-content:center;
+       align-items:center;     }
+
+.partnerno{margin:10px;
+           padding:5px;
+                }
+.partnerno img{width:100px;
+               height:100px;  }
+  
+
+               /* section:contact */
+               #box2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Roboto', sans-serif;
+                color: rgb(27 2 2);
+                font-weight: 900;
+            }
+           #contact::before{ content: "";
+                background: url('https://img.freepik.com/free-photo/businessman-touching-virtual-screen_1232-737.jpg?w=1060&t=st=1670947788~exp=1670948388~hmac=dc6ca0120d13695746c8746a7715b96fe06ab0227c12405e38682620d0cc840e') no-repeat center center/cover;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.5;}
+        
+        #contact{
+                
+                position:relative;
+        
+        } 
+
+ 
+
+
+
+

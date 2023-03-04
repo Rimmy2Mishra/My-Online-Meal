@@ -1,0 +1,56 @@
+html{scroll-behavior: smooth;    }
+
+
+
+
+/* navigation bar */
+#navbar{flex-direction:column;
+        justify-content:center;
+        align-items:center; 
+         font-size:15px; 
+        position:sticky;
+    }
+
+         .logo img {
+            height: 50px;
+            width: 38px;
+         }        
+ .menu ul li a{margin:0px 12px;}
+
+ 
+ 
+ 
+ 
+ /* home section */
+ #home::before{ height: 471px; }
+
+
+
+/* services section */
+#box{flex-direction:column;    }
+#services h1{margin:0px;
+           margin-top: 122px;
+           padding: 23px;}
+
+.serviceno{ margin-top:23px;       }
+
+
+
+
+
+/* partners scetion */
+
+
+
+
+
+/* contact section */
+
+
+
+/* utility classes */
+.h-primary {
+    font-size: 1.3rem;}
+
+.para{font-size:0.3rem;}
+
